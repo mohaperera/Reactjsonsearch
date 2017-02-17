@@ -7,7 +7,7 @@ class Search extends Component {
 Filterupdate(){
 const val=this.myVal.value;
 this.props.filterupdates(val);
-console.log(val);
+//console.log(val);
 }
 
     render() {

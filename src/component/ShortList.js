@@ -6,7 +6,7 @@ class ShortList extends Component {
 render(){
 
 return (
-    <p>aaaa</p>
+    <p></p>
 )
 
 }

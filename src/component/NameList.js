@@ -3,8 +3,15 @@ import React, { Component } from 'react';
 class  NameList extends Component {
 
 render() {
-const {data}= this.props;
-     const nameList= data.map(name=>{
+const {data,filltext} = this.props;
+     const nameList= data
+    
+     .filter(name => {
+       //remove text that do not match search
+       return name.name.toLowerCase().indexOf(filltext.toLowerCase()) >=0
+     })
+     
+     .map( name=> {
        
       // console.log(name.name,name.sex)
       return (
@@ -13,12 +20,12 @@ const {data}= this.props;
          )    
     
   })
-   // console.log(this.props.data);
+   // console.log(this.props.data); ///// this.props.filltext
     return (
       <div className="App">
         
           <ul>
-            {this.props.filltext}
+          
            {nameList}
             </ul>
     
