@@ -5,5 +5,5 @@ In the project directory, you can run:
 ### `npm install`
 ### `npm start`
 
-githubusercontent
- [`App.js`](Capture.PNG)
+![Alt text](/Capture.PNG" REACT")
+ 
