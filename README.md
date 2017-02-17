@@ -5,5 +5,5 @@ In the project directory, you can run:
 ### `npm install`
 ### `npm start`
 
-![Alt text](/Capture.PNG" REACT")
+![Alt text](https://raw.githubusercontent.com/mohaperera/Reactjsonsearch/master/Capture.PNG" REACT")
  
